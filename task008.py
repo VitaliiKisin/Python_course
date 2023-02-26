@@ -7,6 +7,11 @@ for i in lst:
         inc += 1
 print(inc)
 
+# n = int(input())
+# a = map(int, input().split())
+# x = int(input())
+# print(sum(map(lambda z: int(z == x), a)))
+
 
 # Задача 16: Требуется вычислить, сколько раз встречается некоторое число X 
 # в массиве A[1..N]. Пользователь в первой строке вводит натуральное число N –
