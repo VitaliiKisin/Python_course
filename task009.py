@@ -1,6 +1,6 @@
-n = int(input())
-a = map(int, input().split())
-x = int(input())
+n = int(input("Задайте количество элементов N "))
+a = map(int, input("Напишите N разных чисел от 1 до N, через пробел ").split(" "))
+x = int(input("Введите любое чило из строки или вне ее "))
 
 closest = x + 2001
 mindiff = 2001
