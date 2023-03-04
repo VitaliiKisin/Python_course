@@ -1,5 +1,6 @@
-
-def print_operation_table(operation, num_rows=6, num_columns=6):
+x = int( input( 'Задайте число строк: ') )
+y = int( input( 'Задайте число столбцов ' ) )
+def print_operation_table(operation, num_rows = x, num_columns = y):
     for x in range(1, num_rows + 1):
         nums = []
         for y in range(1, num_columns + 1):
