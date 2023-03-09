@@ -131,8 +131,8 @@ def addmember(listfields, data, name):
     print( 'пользователь добавлен')
     data.append(memb) # добавляем обьект в список
     savedata(data,name) # перезаписываем файл c новыми данными
-    
- 
+
+   
 def del_memb(data):
     ''' удаление по имени и фамилии'''
     member = ' '.join(map(str.lower, [input('имя > '), input('фамилия > ')]))
